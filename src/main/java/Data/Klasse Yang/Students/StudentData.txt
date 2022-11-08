@@ -1,1 +1,101 @@
-[{"exams":[],"name":"Huy Anh","id":687981500,"dob":"31/8/2003","randomseed":-35400246},{"exams":[{"maxscore":26,"actualscore":20.0,"germanscore":2.3846153846153846,"passingscore":13.0,"percentage":76.92307692307693,"thema":"Kapitel 5","date":"16/09/2022"}],"name":"Dang","id":1590203590,"dob":"16/5/2003","randomseed":51692117},{"exams":[],"name":"Tuan","id":1646282797,"dob":"27/9/2003","randomseed":49449282},{"exams":[{"maxscore":26,"actualscore":21.5,"germanscore":2.0384615384615383,"passingscore":13.0,"percentage":82.6923076923077,"thema":"Kapitel 5","date":"16/09/2022"}],"name":"Xuan Huy","id":1315033336,"dob":"3/4/2003","randomseed":61804598},{"exams":[],"name":"Nguyet","id":1043880702,"dob":"23/2/2003","randomseed":29014366},{"exams":[{"maxscore":26,"actualscore":20.0,"germanscore":2.3846153846153846,"passingscore":13.0,"percentage":76.92307692307693,"thema":"Kapitel 5","date":"16/09/2022"}],"name":"Minh Anh","id":422626493,"dob":"11/5/2003","randomseed":50304376},{"exams":[],"name":"Phuong","id":383572131,"dob":"14/10/2003","randomseed":27465331},{"exams":[{"maxscore":26,"actualscore":22.0,"germanscore":1.9230769230769231,"passingscore":13.0,"percentage":84.61538461538461,"thema":"Kapitel 5","date":"16/09/2022"}],"name":"Duong","id":226898229,"dob":"1/2/2003","randomseed":-30564034},{"exams":[],"name":"Loc","id":856342006,"dob":"3/7/2003","randomseed":73222623},{"exams":[{"maxscore":26,"actualscore":20.0,"germanscore":2.3846153846153846,"passingscore":13.0,"percentage":76.92307692307693,"thema":"Kapitel 5","date":"16/09/2022"}],"name":"Manh","id":777192596,"dob":"13/8/1999","randomseed":-83990962},{"exams":[],"name":"Huy","id":791916506,"dob":"18/5/1999","randomseed":42766076}]
+[
+  {
+    "exams": [],
+    "name": "Huy Anh",
+    "id": 704239876,
+    "dob": "31/8/2003",
+    "randomseed": -48509070,
+    "average": NaN,
+    "durchschnitt": NaN
+  },
+  {
+    "exams": [],
+    "name": "Dang",
+    "id": 1491928665,
+    "dob": "16/5/2003",
+    "randomseed": 87118026,
+    "average": NaN,
+    "durchschnitt": NaN
+  },
+  {
+    "exams": [],
+    "name": "Tuan",
+    "id": 1676041924,
+    "dob": "27/9/2003",
+    "randomseed": 53780395,
+    "average": NaN,
+    "durchschnitt": NaN
+  },
+  {
+    "exams": [],
+    "name": "Xuan Huy",
+    "id": 1224805678,
+    "dob": "3/4/2003",
+    "randomseed": -80727524,
+    "average": NaN,
+    "durchschnitt": NaN
+  },
+  {
+    "exams": [],
+    "name": "Nguyet",
+    "id": 991475945,
+    "dob": "23/2/2003",
+    "randomseed": -77224777,
+    "average": NaN,
+    "durchschnitt": NaN
+  },
+  {
+    "exams": [],
+    "name": "Minh Anh",
+    "id": 434869753,
+    "dob": "11/5/2003",
+    "randomseed": -35963966,
+    "average": NaN,
+    "durchschnitt": NaN
+  },
+  {
+    "exams": [],
+    "name": "Phuong",
+    "id": 361335730,
+    "dob": "14/10/2003",
+    "randomseed": 49694048,
+    "average": NaN,
+    "durchschnitt": NaN
+  },
+  {
+    "exams": [],
+    "name": "Duong",
+    "id": 233409401,
+    "dob": "1/2/2003",
+    "randomseed": -29222030,
+    "average": NaN,
+    "durchschnitt": NaN
+  },
+  {
+    "exams": [],
+    "name": "Loc",
+    "id": 874373782,
+    "dob": "3/7/2003",
+    "randomseed": 55187135,
+    "average": NaN,
+    "durchschnitt": NaN
+  },
+  {
+    "exams": [],
+    "name": "Manh",
+    "id": 793484826,
+    "dob": "13/8/1999",
+    "randomseed": -68748092,
+    "average": NaN,
+    "durchschnitt": NaN
+  },
+  {
+    "exams": [],
+    "name": "Huy",
+    "id": 782387352,
+    "dob": "18/5/1999",
+    "randomseed": -52259250,
+    "average": NaN,
+    "durchschnitt": NaN
+  }
+]

@@ -10,6 +10,8 @@ public class Student {
     private int id;
     private String dob;
     private int randomseed;
+    private double average;
+    private double durchschnitt;
 
     public Student(String name, String dob) {
         this.name = name;
@@ -17,6 +19,18 @@ public class Student {
         this.dob = dob;
         this.exams = new ArrayList<>();
         this.id = Math.abs(idtranslate(name, dob, this.randomseed)) ;
+
+        double aver = 0;
+        for (Exam e: exams) {
+            aver += e.getPercentage();
+        }
+        this.average = aver / exams.size();
+
+        double durch = 0;
+        for (Exam e : exams) {
+            durch += e.getGermanscore();
+        }
+        this.durchschnitt = durch / exams.size();
     }
 
     public int idtranslate(String name, String dob, int randomseed) {
@@ -42,10 +56,11 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "name='" + name + '\'' +
+                ", name='" + name + '\'' +
                 ", id=" + id +
                 ", dob='" + dob + '\'' +
-                ", randomseed=" + randomseed +
+                ", average=" + average +
+                ", durchschnitt=" + durchschnitt +
                 '}';
     }
 }

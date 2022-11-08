@@ -21,17 +21,22 @@ public class Exam {
         this.germanscore = ((up/down)*3) + 1;
     }
 
-    public double Bavariancalculator (int maxscore, double actualscore, double passingscore) {
-        double up = maxscore - actualscore;
-        double down = maxscore - passingscore;
-        this.germanscore = ((up/down)*3) + 1;
-        return this.germanscore;
+    public double getPercentage() {
+        return percentage;
     }
 
-    public double percentage (int maxscore, double actualscore) {
-        this.percentage = (actualscore/maxscore) *100;
-        return this.percentage;
+    public double getGermanscore() {
+        return germanscore;
     }
+
+    //    public double Bavariancalculator (int maxscore, double actualscore, double passingscore) {
+//        double up = maxscore - actualscore;
+//        double down = maxscore - passingscore;
+//        this.germanscore = ((up/down)*3) + 1;
+//        return this.germanscore;
+//    }
+
+
 
 
 }
