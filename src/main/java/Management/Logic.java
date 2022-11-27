@@ -487,14 +487,15 @@ public class Logic {
         }
 
         if (inpC ==2) {
-            int count = Objects.requireNonNull(new File(filePathExamYin).list()).length;
-            File examFile = new File(filePathExamYin +  "\\Exam_" + count +1 + ".txt");
+            int count = Objects.requireNonNull(new File(filePathExamYin).list()).length + 1;
+            File examFile = new File(filePathExamYin +  "\\Exam_" + count + ".txt");
+            boolean isExamCreated = examFile.createNewFile();
 
             if (!Desktop.isDesktopSupported()) {
                 System.out.println("not supported on this Device");
             }
             Desktop desktop = Desktop.getDesktop();
-            if (examFile.exists()) {
+            if (isExamCreated) {
                 desktop.open(examFile);
             }
 
@@ -527,16 +528,16 @@ public class Logic {
     public static void main(String[] args) throws IOException {
         Logic logic = new Logic();
         // Path to the StudentData text file
-        String studentDataFileYang = "C:\\Users\\MSI\\Documents\\Projekt\\Minh\\Student_Managing_System\\src\\main\\java\\Data\\Klasse Yang\\Students\\StudentData.txt";
-        String studentDataFileYin = "C:\\Users\\MSI\\Documents\\Projekt\\Minh\\Student_Managing_System\\src\\main\\java\\Data\\Klasse Yin\\Students\\StudentData.txt";
+        String studentDataFileYang = ".\\src\\main\\java\\Data\\Klasse Yang\\Students\\StudentData.txt";
+        String studentDataFileYin = ".\\src\\main\\java\\Data\\Klasse Yin\\Students\\StudentData.txt";
 
         // Path to the Student_Names text file
-        String StudentNamesYang = "C:\\Users\\MSI\\Documents\\Projekt\\Minh\\Student_Managing_System\\src\\main\\java\\Data\\Klasse Yang\\Students\\Student_Names.txt";
-        String StudentNamesYin = "C:\\Users\\MSI\\Documents\\Projekt\\Minh\\Student_Managing_System\\src\\main\\java\\Data\\Klasse Yin\\Students\\Student_Names.txt";
+        String StudentNamesYang = ".\\src\\main\\java\\Data\\Klasse Yang\\Students\\Student_Names.txt";
+        String StudentNamesYin = ".\\src\\main\\java\\Data\\Klasse Yin\\Students\\Student_Names.txt";
 
         // Path to the Exam folder for Class Yang and Class Yin
-        String filePathExamYang = "C:\\Users\\MSI\\Documents\\Projekt\\Minh\\Student_Managing_System\\src\\main\\java\\Data\\Klasse Yang\\Exams";
-        String filePathExamYin = "C:\\Users\\MSI\\Documents\\Projekt\\Minh\\Student_Managing_System\\src\\main\\java\\Data\\Klasse Yin\\Exams";
+        String filePathExamYang = ".\\src\\main\\java\\Data\\Klasse Yang\\Exams";
+        String filePathExamYin = ".\\src\\main\\java\\Data\\Klasse Yin\\Exams";
 
         // Path to Exam 1
         String filePathExam1 = "C:\\Users\\MSI\\Documents\\Projekt\\Minh\\Student_Managing_System\\src\\main\\java\\Data\\Klasse Yang\\Exams\\Exam_2.txt";
